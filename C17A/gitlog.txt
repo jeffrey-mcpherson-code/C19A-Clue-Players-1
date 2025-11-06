@@ -1,0 +1,226 @@
+commit abe64b95acba2902aae13d1a7557ae2abe5ff335 (HEAD -> master)
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Mon Oct 27 14:39:20 2025 -0600
+
+    Fixed Room paring issue
+
+
+commit 175da13d0dd351981312e4e900fa865dba64b4df (HEAD -> master)
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Mon Oct 27 01:46:55 2025 -0600
+
+    fixed files str
+
+commit 52e03b39d5146464afe08f8729f12a1eacaaa93f
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Sun Oct 26 23:17:55 2025 -0600
+
+    adding to pass ajencency
+
+commit a1d3ad5a9db23ab1261c0cef27f9c992dc7aec85
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Sun Oct 26 18:13:52 2025 -0600
+
+    Edits to main clue files in order to try to comiple tests
+
+commit e894027b94e07818b00c45dc34c5bcdb141bf599
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Wed Oct 22 20:53:29 2025 -0600
+
+    added certain adjustments
+
+
+
+
+commit 8485f40e304d2268db448f2986dd6bf64a6c155c
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Wed Oct 22 18:11:07 2025 -0600
+
+    Enhance Board class with documentation and formatting
+    
+    Added documentation comments and improved code structure.
+
+commit 0b47c5ad41da0da8827509725bf91bbdcc6c5e28
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Wed Oct 22 18:09:06 2025 -0600
+
+    Refactor comments in Room.java
+    
+    Updated comments for clarity and consistency.
+
+commit 2e34bf7133dcd2b0d2a72a49cde81ba43340b32f
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Wed Oct 22 18:01:18 2025 -0600
+
+    Refactor Board class for improved singleton pattern
+
+commit 9eed6766fda18e980a5e8717bcde0f6e70041871
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Wed Oct 22 17:59:10 2025 -0600
+
+    Refactor BoardCell class with new properties
+
+commit 16e8418225ef49047a1940d4fcf37ed942024bac
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Wed Oct 22 17:57:17 2025 -0600
+
+    Refactor Room class and add helper methods
+    
+    Rearranged fields and methods for clarity and added helper methods to check label and center cells.
+
+commit 998e5b36214eb3cadd5be3c6790ba85fd4d47621
+Author: GarrisonWhiteMines <garrisonwhite@mines.edu>
+Date:   Wed Oct 22 17:56:11 2025 -0600
+
+    Garrison & Jeffrey: FInished Tests.txt
+
+commit 405ffaf5abf805cc4c1a0038985ea6279680c553
+Author: GarrisonWhiteMines <garrisonwhite@mines.edu>
+Date:   Wed Oct 22 17:55:40 2025 -0600
+
+    Delete Test.txt
+
+commit 0fdc3ed3296f331733527ece99255d07ce0fa114
+Author: GarrisonWhiteMines <garrisonwhite@mines.edu>
+Date:   Wed Oct 22 17:54:47 2025 -0600
+
+    Garrison & Jeffrey: Updated readme.txt
+
+commit e990d15f824410d1d6ea8639a9b8bb01b1edfd90
+Author: GarrisonWhiteMines <garrisonwhite@mines.edu>
+Date:   Wed Oct 22 17:26:10 2025 -0600
+
+    Garrison & Jeffrey: Finished FileInitTests.java
+
+commit 4e020491665e4275cd39b8656d6f5a4d0efeeae0
+Author: GarrisonWhiteMines <garrisonwhite@mines.edu>
+Date:   Wed Oct 22 16:59:19 2025 -0600
+
+    Garrison & Jeffrey: Added FileInitTests.java
+
+commit 5af83ba4a443dfd6aac8ff1402ec49d140086554
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Wed Oct 22 16:31:15 2025 -0600
+
+    Implement Board class with configuration loading
+    
+    Added methods for loading room and board configurations, including error handling for file operations. Implemented singleton pattern for the Board class.
+
+commit 0515897dc78238e42f9072e524ea968a15ed43c4
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Wed Oct 22 16:18:45 2025 -0600
+
+    Create BadConfigFormatException for config errors
+    
+    This custom exception handles cases where configuration files for the game board are improperly formatted or missing values.
+
+commit 72a3a325d8557b7e0b356a8a81b4644979f9b1c0
+Author: GarrisonWhiteMines <garrisonwhite@mines.edu>
+Date:   Wed Oct 22 16:17:17 2025 -0600
+
+    Garrison & Jeffrey: Added ClueLayout.csv
+
+commit e1756703a76c2e8aa747b4e954897e7f74d97ff8
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Wed Oct 22 16:08:30 2025 -0600
+
+    Added Room class
+
+commit 9b77dcf8db0d7ed768bf4b5c2b3b8851c1cd87d5
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Wed Oct 22 16:06:08 2025 -0600
+
+    DoorDirection enum file added
+    
+    Added the DoorDirection enum.
+
+commit 82349d2427c10d51fdb36f9b3259815a2aae42b9
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Wed Oct 22 16:04:05 2025 -0600
+
+    Document BoardCell class with Javadoc comments
+    
+    Added detailed class-level documentation for BoardCell.
+
+commit 6112ccbb5fe1cd53f2e98459a40e2741df731658
+Author: GarrisonWhiteMines <garrisonwhite@mines.edu>
+Date:   Wed Oct 22 15:43:10 2025 -0600
+
+    Garrison & Jeffrey: Created required classes and enums for clueGame
+
+commit f5d643d6329831b567bfe79f1d10c2b0135abaed
+Author: GarrisonWhiteMines <garrisonwhite@mines.edu>
+Date:   Wed Oct 22 13:46:59 2025 -0600
+
+    Garrison & Jeffrey: Moved tests to proper package
+
+commit a2475aa72e551dc114ebbd1185d493b52d438c26
+Author: GarrisonWhiteMines <garrisonwhite@mines.edu>
+Date:   Wed Oct 22 12:41:14 2025 -0600
+
+    Garrison & Jeffrey: Added our ClueLayout and ClueSetup files
+
+commit 884dd3fce4cfc80e9477c932656ee9c9e47696c2
+Author: GarrisonWhiteMines <garrisonwhite@mines.edu>
+Date:   Wed Oct 22 12:28:12 2025 -0600
+
+    Garrison & Jeffrey: Added clueGame Package
+
+commit 0f6ecd0779505192aed67b2bd714500682783932
+Author: GarrisonWhiteMines <garrisonwhite@mines.edu>
+Date:   Wed Oct 22 12:18:46 2025 -0600
+
+    Garrison & Jeffrey: Added new test
+
+commit 2428c82d4353d4e99ec46fbfa6ea170988eedf82
+Author: GarrisonWhiteMines <garrisonwhite@mines.edu>
+Date:   Wed Oct 22 12:14:31 2025 -0600
+
+    Garrison & Jeffrey: Initial Commit
+commit c848bd8f972c1031637bfcc700584b8dc2c04589
+Author: GarrisonWhiteMines <garrisonwhite@mines.edu>
+Date:   Mon Oct 27 21:45:34 2025 -0600
+
+    Garrison & Jeffrey: Added BoardAdjTargetTest
+
+commit de649959d1a8531f3a8a8f2a4ba65d64f4090de7
+Author: GarrisonWhiteMines <garrisonwhite@mines.edu>
+Date:   Mon Oct 27 20:35:04 2025 -0600
+
+    Garrison & Jeffrey: Tests now pass, exceptions seperately
+
+commit 62f851e9add704d73f90434c196ea035688e71e8
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Mon Oct 27 15:44:26 2025 -0600
+
+    Fix Room parsing issue
+
+commit e074fc829eac82916643d24a808d8e1a03f04c99
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Mon Oct 27 14:57:22 2025 -0600
+
+    Add Yard space to ClueSetup
+
+commit 633638efda028361457859e6a3fc7f4fa51b2e7e
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Mon Oct 27 14:55:42 2025 -0600
+
+    Update LEGEND_SIZE constant from 11 to 12
+
+commit 9544836647b18566f3c7bb723529032ca6d204a7
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Mon Oct 27 14:41:08 2025 -0600
+
+    Refactor Board class to set fixed dimensions
+
+commit 3126558d54c249e26f355fd5ca662123425373c9
+Author: jeffrey-mcpherson-code <jtmcpherson4@gmail.com>
+Date:   Mon Oct 27 12:16:45 2025 -0600
+
+    Update gitlog.txt with recent commit history
+
+commit f9614d0ed278d19ad5f48ce17f75116e55fb5ee1
+Author: GarrisonWhiteMines <garrisonwhite@mines.edu>
+Date:   Mon Oct 27 11:59:52 2025 -0600
+
+    Garrison & Jeffrey initial commit

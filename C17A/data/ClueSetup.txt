@@ -1,0 +1,14 @@
+// Rooms and room cards
+Room, Theater, T
+Room, Wine Cellar, C
+Room, Cigar Bar, B
+Room, Spa, S
+Room, Greenhouse, G
+Room, Art Gallery, A
+Room, Master Bedroom, M
+Room, Pantry, P
+Room, Dining Hall, D
+// Other spaces on board
+Space, Unused, X
+Space, Walkway, W
+Space, Yard, Y
