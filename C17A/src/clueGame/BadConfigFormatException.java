@@ -11,7 +11,7 @@ package clueGame;
  *
  * @author Jeffrey McPherson
  * @author Garrison White
- * Date: 10/22/2025
+ * Date: 11/07/2025
  */
 
 public class BadConfigFormatException extends Exception {

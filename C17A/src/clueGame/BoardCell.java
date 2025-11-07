@@ -1,4 +1,3 @@
-
 /**
  * The BoardCell class represents one square on the Clue game board.
  * It stores its grid coordinates, room initial, and whether it contains
@@ -8,7 +7,7 @@
  * 
  * @author Jeffrey McPherson
  * @author Garrison White
- * Date: 10/22/2025
+ * Date: 11/07/2025
  */    
 package clueGame;
 

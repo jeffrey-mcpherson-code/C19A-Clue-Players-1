@@ -4,7 +4,9 @@
  *
  * Compatible with FileInitTests and BoardAdjTargetTest suites.
  *
- * @author Jeffrey
+ * @author Jeffrey McPherson
+ * @author Garrison White
+ * Date: 11/07/2025
  */
 package clueGame;
 
@@ -47,18 +49,31 @@ public class Board {
         return theInstance;
     }
 
+    public static void reset() {
+        theInstance = new Board();
+    }
+    
     // Private constructor
     private Board() {
         roomMap = new HashMap<>();
         adjMap = new HashMap<>();
     }
-
-    // Called once before tests
+   
     public void setConfigFiles(String layout, String setup) {
         layoutConfigFile = layout;
         setupConfigFile = setup;
+
+        roomMap.clear();
+        rooms.clear();
+        adjMap.clear();
+        targets = null;
+        visited = null;
+        grid = null;
+
+        numRows = 0;
+        numColumns = 0;
     }
-   
+    
     public void initialize(){
     	try {
 	        loadSetupConfig();
@@ -66,7 +81,7 @@ public class Board {
 	        calcAdjacencies();
 
     	} catch(BadConfigFormatException e) {
-    		e.printStackTrace();
+    		throw new RuntimeException(e);
     	}
     }
 
@@ -102,7 +117,7 @@ public class Board {
     	            }
     	        }
     	    } catch (FileNotFoundException e) {
-    	        System.out.println("Setup file not found: " + setupConfigFile);
+    	    	 throw new BadConfigFormatException("Setup file not found: " + setupConfigFile);
     	    }
     	}
 

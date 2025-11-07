@@ -1,3 +1,10 @@
+/**
+ * 
+ * @author Jeffrey McPherson
+ * @author Garrison White
+ * Date: 11/07/2025
+ */
+
 package clueGame;
 
 import java.awt.Color;

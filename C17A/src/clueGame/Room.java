@@ -1,12 +1,10 @@
-
-
 /**
  * Represents a single room or space in the ClueGame board.
  * Loaded from the legend file (.txt) to map initials to full names.
  *
  * @author Jeffrey McPherson
  * @author Garrison White
- * Date: 10/22/2025
+ * Date: 11/07/2025
  */
 package clueGame;
 
